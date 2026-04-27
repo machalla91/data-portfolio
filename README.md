@@ -1,18 +1,18 @@
-# Tech Layoffs Data Cleaning – MySQL
+# Hi, I'm david the Analyst 👋
 
-### Tools
-MySQL
+**Aspiring Data Analyst** | SQL | Excel | Learning Daily
 
-### What was wrong with the raw data
-1. Duplicate rows
-2. Industry names not standard – 'crypto', 'CryptoCurrency', 'crypto trading'
-3. Null values in `industry` and `total_laid_off`
+I enjoy finding patterns in messy data and turning them into clear insights. Currently building my skills through hands-on projects.
 
-### How I fixed it
-1. Used `ROW_NUMBER() OVER (PARTITION BY...)` to find and delete duplicates
-2. `UPDATE layoffs SET industry = 'crypto' WHERE industry LIKE 'crypto%'` to standardize
-3. Set nulls to 'Unknown' so they don't break analysis
+### Projects
+1. **[Layoffs Data Cleaning](./layoffs-analysi)**  
+   Used MySQL to clean 2000+ rows of raw layoff data. Removed duplicates with `ROW_NUMBER()`, standardized messy `industry` values like 'crypto' vs 'CryptoCurrency', and handled nulls. Exported analysis-ready CSV.
 
-### Files in this folder
-- `SQL Analysis` – Full cleaning script with comments
-- `cleaned data.csv` – Final dataset after cleaning
+### Skills I'm Working On
+- SQL: Joins, CTEs, Window Functions
+- Excel: Pivot Tables, VLOOKUP, Data Cleaning
+- Next up: Python, Power BI
+
+### Contact
+- LinkedIn: [https://www.linkedin.com/in/david-asani-miaeng-972770233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
+- Email: [davidasani91@gmail.com]
