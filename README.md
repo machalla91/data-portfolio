@@ -14,5 +14,5 @@ I enjoy finding patterns in messy data and turning them into clear insights. Cur
 - Next up: Python, Power BI
 
 ### Contact
-- LinkedIn: [https://www.linkedin.com/in/david-asani-miaeng-972770233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
+- LinkedIn: [linkedin.com/in/david-asani-miaeng-972770233]
 - Email: [davidasani91@gmail.com]
